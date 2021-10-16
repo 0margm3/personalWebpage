@@ -3,17 +3,29 @@
     <head>
         <meta charset="utf-8">
         <!-- <meta name="viewport" content="content=device-width, initial-scale=1.0 "> -->
-        <link rel="stylesheet" href="style.min.css" type="text/css">
+        <link rel="stylesheet" href="src\style.min.css" type="text/css">
         <title>Welcome</title>
     </head>
     <body>
         <div class="parallax_wrapper">
+
+            <!-- <div class="overlay" id="overlay_top"></div>
+            <div class="overlay" id="overlay_bottom"></div> -->
             <!-- Header/title starts -->
             <div class="parallax_group intro_screen" id="intro">
-                Title + DP
+                <div class="about_me">
+                    <img src="src\dp.png" alt="Display Picture" class="placeholder_dp-img">
+                    <h4 id="Name">Omar Gerardo</h4>
+                    <div>
+                        <a href="https://github.com/in1x/" target="_blank" id="Socmed">
+                            <img src="src\GitIcon.png" alt="GitHub" class="gitIcon">
+                            <h6>in1x</h6>
+                        </a>
+                    </div>
+                </div>
             </div>
             <!-- Header/title ends -->
-            <!-- First section starts -->
+            <!-- Section starts -->
             <div class="parallax_group" id="group-01">
                 <div class="parallax_layer base_layer">
                     Base Layer Page
@@ -22,17 +34,24 @@
                     Mid Layer Page
                 </div>
             </div>
-            <!-- First section Ends -->
-            <!-- Second Section Starts -->
+            <!-- Section Ends -->
+            <!-- Transition Section Starts -->
             <div class="parallax_group" id="group-02">
                 <div class="parallax_layer mid_layer">
                     Mid Layer Page
                 </div>
-                <div class="parallax_layer top_layer">
-                    Top Layer Page
+            </div>
+            <!-- Transition Section Ends -->
+            <!-- Section starts -->
+            <div class="parallax_group" id="group-01">
+                <div class="parallax_layer base_layer">
+                    Base Layer Page
+                </div>
+                <div class="parallax_layer mid_layer">
+                    Mid Layer Page
                 </div>
             </div>
-            Second Section Ends
+            <!-- Section Ends -->
             <!-- Outro/footer starts -->
             <div class="parallax_group outro_screen" id="outro">
                 Outro
