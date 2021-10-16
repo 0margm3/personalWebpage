@@ -1,25 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
-
 @mixin align-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+@mixin background_color {
+    background-color: #292929;
+}
 
 body {
     background-color: #292929;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
+    font-family: 'Press Start 2P', cursive;
     color: white;
-a {
-    text-decoration: none;
-    color: white;
-}
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .placeholder_back-img {
+        position: absolute;
+        height: 50px;
+        top: 8%;
+        left: 10%;
+        z-index: 10;
+    }
+
     .parallax_wrapper {
         height: 100vh;
         overflow-x: hidden;
@@ -30,36 +41,72 @@ a {
             height: 100vh;
             background-color: #292929;
             @include align-center;
+            z-index: 1;
 
-            .about_me {
+            .Profile {
                 @include align-center;
                 flex-direction: column;
+                z-index: inherit;
                 .placeholder_dp-img {
                     border-radius: 50%;
                     width: 300px;
                     height: 300px;
+                    z-index: inherit;
                 }
+
                 #Name {
-                    padding-top: 5%;
+                    padding-top: 2%;
+                    letter-spacing: 10px;
+                    z-index: inherit;
                 }
-                #Socmed{
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    .gitIcon {
-                        height: 25px;
+
+                #_socmed {
+                    margin: 1%;
+                    z-index: inherit;
+                    #Socmed {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        z-index: inherit;
+                        .gitIcon {
+                            height: 30px;
+                            margin-left: -20%;
+                            z-index: inherit;
+                        }
+
+                        p {
+                            padding-left: 20%;
+                            z-index: inherit;
+                        }
                     }
-                    h6 {
-                        padding: 5%;
+                }
+                .About_me {
+                    display: flex;
+                    .wrapper_left {
+
+                    }
+                    .Nav_line {
+                        .Circle {
+
+                        }
+                        .Line {
+
+                        }
+                    }
+                    .About_me_content{
+                        
                     }
                 }
             }
         }
+
         .outro_screen {
             height: 100vh;
             background-color: teal;
             @include align-center;
+            @include background_color;
         }
+
         .parallax_group {
             position: relative;
             height: 100vh;
@@ -70,7 +117,6 @@ a {
                 inset: 0;
                 @include align-center;
             }
-
             //Scale = 1 + ((Z transform * -1) / perspective)
             .base_layer {
                 transform: translateZ(-300px) scale(2);
@@ -84,21 +130,25 @@ a {
                 transform: translateZ(-300px);
             }
         }
+
         #intro {
             z-index: 0.5;
         }
+
         #group-01 {
             z-index: -1;
         }
 
         #group-01 > .base_layer {
             background-color: crimson;
+            @include background_color;
         }
 
         #group-02 {}
 
         #group-02 > .mid_layer {
             background-color: yellowgreen;
+            @include background_color;
         }
 
         #outro {}
