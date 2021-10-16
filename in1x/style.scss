@@ -43,10 +43,19 @@ body {
                 inset: 0;
                 @include align-center;
             }
+
+            //Scale = 1 + ((Z transform * -1) / perspective)
             .base_layer {
                 transform: translateZ(-300px) scale(2);
             }
 
+            .mid_layer {
+                transform: translateZ(0);
+            }
+
+            .top_layer {
+                transform: translateZ(210px) scale(0.3);
+            }
         }
         #intro {
             z-index: 0.5;
@@ -61,7 +70,7 @@ body {
 
         #group-02 {}
 
-        #group-02 > .base_layer {
+        #group-02 > .mid_layer {
             background-color: yellowgreen;
         }
 
