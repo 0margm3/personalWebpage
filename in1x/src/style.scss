@@ -60,27 +60,6 @@ body {
                     letter-spacing: 10px;
                     z-index: inherit;
                 }
-
-                #_socmed {
-                    margin: 1%;
-                    z-index: inherit;
-                    #Socmed {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        z-index: inherit;
-                        .gitIcon {
-                            height: 30px;
-                            margin-left: -20%;
-                            z-index: inherit;
-                        }
-
-                        p {
-                            padding-left: 20%;
-                            z-index: inherit;
-                        }
-                    }
-                }
             }
         }
 
@@ -137,18 +116,23 @@ body {
 
         #outro {}
     }
-    .About_me {
+    .quote {
+        @include align-center;
+        position: absolute;
+    }
+
+    .Content_wrapper {
         display: flex;
         flex-direction: row;
         .wrapper_Left {
             height: 41vh;
             width: 30vw;
-            background: #292929;
+            opacity: 0;
         }
         .wrapper_Right {
             height: 41vh;
             width: 10vw;
-            background: #292929;
+            opacity: 0;
         }
         .Nav_line {
             position: relative;
@@ -185,22 +169,41 @@ body {
                 background: #01ffd1;
             }
         }
-        .About_me_content{
+        .Content {
             height: 41vh;
             width: 60vw;
             background: #292929;
 
-            #About_Heading {
+            #Content_Heading {
                 margin: 2% 0%;
                 padding: 2% 0%;
-                letter-spacing: 3px;
+                letter-spacing: 5px;
                 font-size: 1em;
             }
-            #About_para {
+            #Content_para {
                 margin: 1% 0%;
                 padding: 1% 0%;
                 font-size: 12px;
                 letter-spacing: 3px;
+            }
+        }
+    }
+    #_socmed {
+        margin: 1%;
+        z-index: inherit;
+        #Socmed {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            z-index: inherit;
+            .gitIcon {
+                height: 30px;
+                z-index: inherit;
+            }
+
+            p {
+                padding-left: 3%;
+                z-index: inherit;
             }
         }
     }
