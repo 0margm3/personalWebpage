@@ -44,13 +44,14 @@ body {
             z-index: 1;
 
             .Profile {
+                padding-top: 12vh;
                 @include align-center;
                 flex-direction: column;
                 z-index: inherit;
                 .placeholder_dp-img {
                     border-radius: 50%;
-                    width: 300px;
-                    height: 300px;
+                    width: 200px;
+                    height: 200px;
                     z-index: inherit;
                 }
 
@@ -78,23 +79,6 @@ body {
                             padding-left: 20%;
                             z-index: inherit;
                         }
-                    }
-                }
-                .About_me {
-                    display: flex;
-                    .wrapper_left {
-
-                    }
-                    .Nav_line {
-                        .Circle {
-
-                        }
-                        .Line {
-
-                        }
-                    }
-                    .About_me_content{
-                        
                     }
                 }
             }
@@ -152,5 +136,72 @@ body {
         }
 
         #outro {}
+    }
+    .About_me {
+        display: flex;
+        flex-direction: row;
+        .wrapper_Left {
+            height: 41vh;
+            width: 30vw;
+            background: #292929;
+        }
+        .wrapper_Right {
+            height: 41vh;
+            width: 10vw;
+            background: #292929;
+        }
+        .Nav_line {
+            position: relative;
+            height: 41vh;
+            width: 10vw;
+            display: flex;
+            flex-direction: column;
+
+            .square_color {
+                clear: left;
+                margin: 0 auto;
+                background: rgba(29, 29, 29, 0);
+            }
+            .Square1 {
+                height: 3em;
+                width: 3em;
+                border: 1vw solid #01ffd199;
+            }
+            .Square2 {
+                height: 2em;
+                width: 2em;
+                border: 1vw solid #01ffd166;
+            }
+            .Square3 {
+                height: 1em;
+                width: 1em;
+                border: 1vw solid #01ffd133;
+            }
+
+            .Line {
+                height: 41vh;
+                width: 1vw;
+                margin: 0% auto;
+                background: #01ffd1;
+            }
+        }
+        .About_me_content{
+            height: 41vh;
+            width: 60vw;
+            background: #292929;
+
+            #About_Heading {
+                margin: 2% 0%;
+                padding: 2% 0%;
+                letter-spacing: 3px;
+                font-size: 1em;
+            }
+            #About_para {
+                margin: 1% 0%;
+                padding: 1% 0%;
+                font-size: 12px;
+                letter-spacing: 3px;
+            }
+        }
     }
 }
