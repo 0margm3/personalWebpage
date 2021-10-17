@@ -3,7 +3,7 @@ body{
   align-items: center;
   display:flex;
   justify-content: center;
-  background-image: url('src/bg.gif');
+  background-image: url('../src/bg.gif');
 }
 .main_profile{
         width:300px;
