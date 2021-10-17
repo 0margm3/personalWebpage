@@ -1,9 +1,9 @@
 body, html {
-    /* background: url("../src/bg.png"); */
+    background: url("../src/bga.jpg");
 
     justify-content: center;
     align-items: center;
-
+    background-position: top,center;
     background-size: cover;
 }
 p {
@@ -26,27 +26,25 @@ a {
   flex-direction: row;
 }
     .Profile_Section {
+        position: fixed;
         display: flex;
         flex-direction: column;
         width: 25vw;
         height: 95vh;
-        background: #202020;
+        background:rgba(41, 41, 41, 0.5);
         align-items: center;
         text-align: center;
-        opacity: 0.5;
     }
         .placeholder-img {
             margin: 5%;
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            opacity: 1;
         }
             #DP_properties {
                 width: 200px;
                 height: 200px;
                 border-radius: 50%;
-                opacity: 1;
             }
         .Introduction {
 
@@ -59,11 +57,14 @@ a {
         }
     .Main_Section {
         margin: 5%;
+        margin-left: 30%;
         width: 60vw;
 
     }
         .Section {
             margin-bottom: 8%;
+            padding: 10%;
+            background:rgba(41, 41, 41, 0.5);
         }
         #group1 {
 
