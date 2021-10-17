@@ -1,20 +1,61 @@
+
 body{
   align-self: center;
   align-items: center;
   display:flex;
   justify-content: center;
   background-image: url('../src/bg.gif');
-  background-size: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top,center;
+
+  flex-direction: column;
 }
 .main_profile{
         width:300px;
         height:300px;
         border-radius:50%;
-        background-color: red;
+
         align-self: center;
         align-items: center;
             }
+.name{
+  margin-top: 70px;
+  align-self: center;
+  align-items: center;
+  color: #FBE7C6;
+  font-size: 24px;
+  font-family: 'IM Fell English SC', serif;
+}
+.about1{
+  margin-top: 100px;
+  margin-right: 520px;
+  align-self: center;
+  align-items: center;
+  color: #FBE7C6;
+  font-size: 50px;
+  font-family: 'IM Fell English SC', serif;
+}
+.quts{
+  margin-top: 280px;
+  align-self: center;
+  align-items: center;
+  color: #FBE7C6;
+  font-size: 25px;
+  font-family: 'IM Fell English SC', serif;
+}
+.socials{
+  color: #FBE7C6;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 50vw;
+}
+.socials1{
+  display: flex;
+  flex-direction: column;
+}
   #profilepic{
+    margin-top: 25px;
     height: 300px;
     width: 300px;
     align-self: center;
@@ -22,3 +63,13 @@ body{
     border-radius: 50%;
 
   }
+  #githubicon{
+    margin: 0;
+    height: 100px;
+    width: 100px;
+
+  }
+#sc{
+  padding: 0;
+  margin: 0;
+}
