@@ -1,16 +1,76 @@
 body, html {
-    margin: 0;
-    padding: 0;
+    /* background: url("../src/bg.png"); */
+
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+}
+p {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 .wrapper {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-right: 2%; /* 1 */
+  margin-left:  2%; /* 1 */
+
+  padding-right: 1%; /* 3 */
+  padding-left:  1%; /* 3 */
+
+  display: flex;
+  flex-direction: row;
 }
     .Profile_Section {
-
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        height: 95vh;
+        background: #202020;
+        align-items: center;
+        text-align: center;
+        opacity: 0.5;
     }
         .placeholder-img {
-            
+            margin: 5%;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            opacity: 1;
+        }
+            #DP_properties {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                opacity: 1;
+            }
+        .Introduction {
+
+        }
+            #AboutYou{
+                padding: 10%;
+            }
+        .Social_Media {
+
+        }
+    .Main_Section {
+        margin: 5%;
+        width: 60vw;
+
+    }
+        .Section {
+            margin-bottom: 8%;
+        }
+        #group1 {
+
+        }
+        #group2 {
+
+        }
+        #group3 {
+
         }
