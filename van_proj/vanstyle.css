@@ -1,0 +1,293 @@
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+  padding: 70px;
+
+}
+
+/** BACKGROUND EFFECT*/
+
+.BG {
+	ANIMATION: SLIDE 3S EASE-IN-OUT INFINITE ALTERNATE;
+	BACKGROUND-IMAGE: LINEAR-GRADIENT(-60DEG, #0f0e0e 50%, #ba0606 50%);
+	BOTTOM: 0;
+	LEFT: -50%;
+	OPACITY: .5;
+	POSITION: FIXED;
+	RIGHT: -50%;
+	TOP: 0;
+	Z-INDEX: -1;
+}
+
+.BG2 {
+	ANIMATION-DIRECTION: ALTERNATE-REVERSE;
+	ANIMATION-DURATION: 4S;
+}
+
+.BG3 {
+	ANIMATION-DURATION: 5S;
+}
+
+
+
+.HEADER {
+	BACKGROUND-COLOR: #0c0f0db0;
+}
+
+
+/* STYLE THE HEADER LINKS */
+
+.HEADER a {
+	FLOAT: LEFT;
+	COLOR: #fff;
+	TEXT-ALIGN: CENTER;
+	padding-left: 15PX;
+	padding-right: 15PX;
+	padding-top: 4PX;
+	padding-bottom: 4PX;
+	TEXT-DECORATION: NONE;
+	FONT-SIZE: 18PX;
+	LINE-HEIGHT: 25PX;
+ 	font-family: Verdana, sans-serif;
+	margin: 5px;
+	BORDER-RADIUS: 4PX;
+}
+
+
+/* STYLE THE LOGO LINK (NOTICE THAT WE SET THE SAME VALUE OF LINE-HEIGHT AND FONT-SIZE TO PREVENT THE HEADER TO INCREASE WHEN THE FONT GETS BIGGER */
+
+.HEADER a.LOGO {
+	FONT-SIZE: 25PX;
+	FONT-WEIGHT: BOLD;
+}
+
+
+/* CHANGE THE BACKGROUND COLOR ON MOUSE-OVER */
+
+.HEADER a:HOVER {
+	BACKGROUND-COLOR: #DDD;
+	COLOR: BLACK;
+}
+
+
+/* HOME LOGO*/
+
+.HEADER a.active {
+	COLOR: WHITE;
+	BACKGROUND-COLOR: #2a364a;
+}
+
+
+/* FLOAT THE LINK SECTION TO THE RIGHT */
+
+.HEADER-RIGHT {
+	FLOAT: RIGHT;
+	BACKGROUND-COLOR: #0c0f0db0;
+}
+
+
+/* ADD MEDIA QUERIES FOR RESPONSIVENESS - WHEN THE SCREEN IS 500PX WIDE OR LESS, STACK THE LINKS ON TOP OF EACH OTHER */
+
+@MEDIA SCREEN AND (MAX-WIDTH: 500PX) {
+	.HEADER a {
+		FLOAT: NONE;
+		DISPLAY: BLOCK;
+		TEXT-ALIGN: LEFT;
+	}
+	.HEADER-RIGHT{
+		FLOAT: NONE;
+	}
+}
+
+@KEYFRAMES SLIDE {
+	0% {
+		TRANSFORM: TRANSLATEX(-25%);
+	}
+	100% {
+		TRANSFORM: TRANSLATEX(25%);
+	}
+}
+
+.content {
+	BORDER-RADIUS: .25EM;
+	color: #fcfaf2;
+	BOX-SIZING: BORDER-BOX;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	PADDING-top: 20px;
+  BACKGROUND-COLOR: #0c0f0db0;
+
+
+	TEXT-ALIGN: CENTER;
+	letter-spacing: 2px;
+}
+
+.content1 {
+	BORDER-RADIUS: .25EM;
+	BACKGROUND-COLOR: #0c0f0db0;
+	BOX-SIZING: BORDER-BOX;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-top: 20px;
+	height: auto;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	TEXT-ALIGN: CENTER;
+}
+
+.deets {
+	TEXT-ALIGN: left;
+}
+
+.educationCont {
+	padding-top: 3px;
+	BACKGROUND-COLOR: #f2f7ff;
+	color: #0c0e12;
+	height: auto;
+	padding-bottom: 13px;
+	line-height: 1.5;
+}
+
+.educFont {
+	vertical-align: text-top;
+	font-weight: bold;
+	padding-right: 30px;
+	font-size: 30px;
+	padding-left: 30px;
+	color: #434d5c;
+}
+
+#educP {
+	font-family: 'Times New Roman', serif;
+	font-size: 22px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #474a4d;
+}
+
+.educP {
+	font-size: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #111112;
+	font-weight: lighter;
+	font-family: "Calibri Light";
+}
+
+h1 {
+  font-size: 222em;
+
+	color: #fff;
+	font-family: 'Times New Roman', serif;
+  font-weight: lighter;
+}
+
+h2 {
+	font-family: "Calibri Light";
+	padding: 20px;
+	text-align: left;
+	color: #fff;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: "Calibri Light";
+	padding: 20px;
+	text-align: left;
+	color: #fff;
+}
+
+.bot {
+	BORDER-RADIUS: .25EM;
+	BACKGROUND-COLOR: #191b1c;
+	BOX-SIZING: BORDER-BOX;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 90px;
+
+	TEXT-ALIGN: CENTER;
+}
+
+#yvan {
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+	padding-top: 40px;
+	width: 20%;
+	height: auto;
+}
+
+img {
+	width: 1.5%;
+	height: 2.5%;
+}
+
+p {
+  padding: 70px;
+	vertical-align: top;
+  font-size: 28px;
+	color: #fff;
+	font-family: "Calibri Light";
+}
+
+.paragraph {
+	padding-top: 10px;
+
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 28px;
+}
+
+.medFont {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: circle;
+	font-family: "Calibri Light";
+	padding-left: 60px;
+}
+
+.medIcon {
+	vertical-align: top;
+	transform: scale(1, 1.3);
+	width: 3%;
+}
+
+#educIcon {
+	vertical-align: middle;
+	transform: scale(1, 1.8);
+	width: 3%;
+}
+
+.leftSkill {
+	float: right;
+	left: 150px;
+	font-size: 29px;
+	vertical-align: middle;
+}
+
+.starsIcon {
+	width: 10%;
+	height: auto;
+}
+
+.skillsContainer {
+
+	BACKGROUND-COLOR: #f2f7ffa0;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: auto;
+	padding-bottom: 30px;
+}
