@@ -178,12 +178,16 @@ body {
                 margin: 2% 0%;
                 padding: 2% 0%;
                 letter-spacing: 5px;
-                font-size: 1em;
+                // font-size: 1em;
+                font-size: 1.2vm;   /* IE9 */
+                font-size: 1.2vmin;
             }
             #Content_para {
                 margin: 1% 0%;
                 padding: 1% 0%;
-                font-size: 12px;
+                // font-size: 12px;
+                font-size: 1.2vm;   /* IE9 */
+                font-size: 1.2vmin;
                 letter-spacing: 3px;
             }
         }
