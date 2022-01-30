@@ -1,0 +1,32 @@
+    {
+        "users": [
+            {
+                "pfp": "../in1x/src/img/dp.jpg",
+                "firstName": "Omar",
+                "lastName": "Gerardo",
+                "aboutMe": "Matigas",
+                "socmed": 
+                    {
+                        "facebook": "https://www.facebook.com/omrgd",
+                        "github": "https://github.com/in1x/",
+                        "linkedIn": "https://www.linkedin.com/in/omargerardo/"
+                    }
+                ,
+                "website": "http://127.0.0.1:5501/index.html"
+            },
+            {
+                "pfp": "../van_proj/pics/yvan.png",
+                "firstName": "Yvan Joyce",
+                "lastName": "Carreon",
+                "aboutMe": "", 
+                "socmed": 
+                    {
+                        "facebook": "https://www.facebook.com/yvanjoyce/",
+                        "github": "https://github.com/yvanjoyce",
+                        "linkedIn": "https://www.linkedin.com/in/yvan-joyce-carreon-a43aa4226/"
+                    }
+                ,
+                "website": "../van_proj/vanpage.html"
+            }
+        ]
+    }

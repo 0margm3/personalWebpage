@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,13 +12,13 @@
     <link rel="stylesheet" href="dist/output.css" />
     <title>IUPAGE</title>
   </head>
+
   <body class="">
     <header class="bg-[#C4C4C4]">
       <div id="container-header" class="flex">
         <button
           id="menu-header"
           class="ml-4 mr-2 mt-3 h-[38px] w-[38px] rounded-2xl bg-[#602020] hover:text-lg hover:h-[46px] hover:w-[46px] hover:ml-3 hover:mt-2 hover:mr-1"
-
           onclick="openNav()"
         >
           <i class="fas fa-bars p-3 text-zinc-300 hover:text-lg hover:p-2"></i>
@@ -57,173 +58,31 @@
       class="mr-auto ml-auto max-w-[1160px] pl-[10px] pr-[10px]"
     >
 
-
-    <h1 class="m-6 text-3xl text-left sm:text-justify">Featured Portfolio Webpage</h1>
+      <h1 class="m-6 text-3xl text-left sm:text-justify">Featured Portfolio Webpage</h1>
     
-    <div id="container-body-block" class="p-6 grid self-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-14">
+      <div id="container-body-block" class="p-6 grid self-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-14">
       
-        <div
-          id="block-user"
-          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-          text-center flex flex-col justify-between
-          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
-        >
-          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
-          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
-          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
-          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
-            <div id="block-user-socmed" class="flex justify-evenly">
-                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
-            </div>
-            <div id="block-user-visit-link">
-                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
-            </div>
+        <!-- <div id="block-user" class="block-user">
+          <div id="block-user-pfp" class="block-user-pfp" >
+            <img id="block-user-pfp-img" alt="user-pfp" class="block-user-pfp-img">
           </div>
-        </div>
-        
-      
-        <div
-          id="block-user"
-          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-          text-center flex flex-col justify-between
-          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
-        >
-          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
-          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
-          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
-          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
-            <div id="block-user-socmed" class="flex justify-evenly">
-                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
-            </div>
-            <div id="block-user-visit-link">
-                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
-            </div>
-          </div>
-        </div>
 
-           
-        <div
-          id="block-user"
-          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-          text-center flex flex-col justify-between
-          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
-        >
-          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
-          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
-          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
-          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+          <h2 id="block-user-name" class="m-2"></h2>
+          <p id="block-user-about" class="block-user-about"></p>
+          <div id="block-user-footer" class="block-user-footer">
             <div id="block-user-socmed" class="flex justify-evenly">
-                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+                <a href="" id="block-user-socmed-fb"><i class="fab fa-facebook-square block-user-footer-socmed "></i></a>
+                <a href="" id="block-user-socmed-github"><i class="fab fa-github-square block-user-footer-socmed "></i></a>
+                <a href="" id="block-user-socmed-link"><i class="fab fa-linkedin block-user-footer-socmed "></i></a>
             </div>
             <div id="block-user-visit-link">
-                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+                <a href="" id="block-user-webpage" ><i class="fas fa-external-link-alt block-user-footer-visit"></i></a>
             </div>
           </div>
-        </div>
-
-           
-        <div
-          id="block-user"
-          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-          text-center flex flex-col justify-between
-          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
-        >
-          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
-          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
-          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
-          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
-            <div id="block-user-socmed" class="flex justify-evenly">
-                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
-            </div>
-            <div id="block-user-visit-link">
-                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
-            </div>
-          </div>
-        </div>
-
-           
-        <div
-          id="block-user"
-          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-          text-center flex flex-col justify-between
-          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
-        >
-          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
-          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
-          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
-          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
-            <div id="block-user-socmed" class="flex justify-evenly">
-                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
-            </div>
-            <div id="block-user-visit-link">
-                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
-            </div>
-          </div>
-        </div>
-
-           
-        <div
-          id="block-user"
-          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-          text-center flex flex-col justify-between
-          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
-        >
-          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
-          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
-          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
-          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
-            <div id="block-user-socmed" class="flex justify-evenly">
-                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
-            </div>
-            <div id="block-user-visit-link">
-                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
-            </div>
-          </div>
-        </div>
-
-           
-        <div
-          id="block-user"
-          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-          text-center flex flex-col justify-between
-          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
-        >
-          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
-          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
-          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
-          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
-            <div id="block-user-socmed" class="flex justify-evenly">
-                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
-                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
-            </div>
-            <div id="block-user-visit-link">
-                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
-            </div>
-          </div>
-        </div>
-        
+        </div> -->
         
       </div>
     </div>
-
-    <!-- 
-    <footer>
-        <div id="container-footer"></div>    
-    </footer> 
-    -->
 
     <script>
         function openNav() {
@@ -234,6 +93,113 @@
             document.getElementById("side-bar").style.width = "0";
         }
 
+        fetch("src/data/data.json")
+          .then(res => res.json()) // the .json() method parses the JSON response into a JS object literal
+          // .then(data => console.log(data.users.length));
+          .then(data => {
+
+            for (let index = 0; index < data.users.length; index++) {
+              let container = document.getElementById("container-body-block");
+              let block_user = document.createElement('div');
+              block_user.id = "block-user" + index;
+              block_user.className =  "block-user";
+
+              //Create DIV element for user img placeholder
+              let block_user_pfp = document.createElement('div');
+              block_user_pfp.id = "block-user-pfp" + index;
+              block_user_pfp.classList =  "flex justify-evenly";
+
+              //Create H2 element for user name
+              let block_user_name = document.createElement('h2');
+              block_user_name.id = "block-user-name" + index;
+              block_user_name.className = "m-2";
+              
+              //Create IMG element for user img
+              let block_user_pfp_img = document.createElement('img');
+              block_user_pfp_img.id = "block-user-pfp-img" + index;
+              block_user_pfp_img.classList = "block-user-pfp-img mt-3";
+              block_user_pfp.append(block_user_pfp_img);
+
+              //Create P element for user about
+              let block_user_about = document.createElement('p');
+              block_user_about.id = "block-user-about" + index;
+              block_user_about.className = "block-user-about";
+              
+              //Create DIV element for socmed and link to website
+              let block_user_footer = document.createElement('div');
+              block_user_footer.id = "block-user-footer" + index;
+              block_user_footer.className = "block-user-footer";
+
+              //Create DIV element for socmed section
+              let block_user_socmed = document.createElement('div');
+              block_user_socmed.id = "block-user-socmed" + index;
+              block_user_socmed.className = "block-user-socmed";
+              block_user_footer.appendChild(block_user_socmed);
+
+                //Create A element for facebook
+                let socmed_fb = document.createElement('a');
+                socmed_fb.id = "block-user-socmed-fb" + index;
+                socmed_fb.classList = "fab fa-facebook-square block-user-footer-socmed";
+                // Create a href attribute:
+                socmed_fb.setAttribute("href", "");
+                block_user_socmed.appendChild(socmed_fb);
+
+                //Create A element for github
+                let socmed_github = document.createElement('a');
+                socmed_github.id = "block-user-socmed-github" + index;
+                socmed_github.classList = "fab fa-github-square block-user-footer-socmed";
+                // Create a href attribute:
+                socmed_github.setAttribute("href", "");
+                block_user_socmed.appendChild(socmed_github);
+
+                //Create A element for linked
+                let socmed_linked = document.createElement('a');
+                socmed_linked.id = "block-user-socmed-link" + index;
+                socmed_linked.classList = "fab fa-linkedin block-user-footer-socmed";
+                // Create a href attribute:
+                socmed_linked.setAttribute("href", "");
+                block_user_socmed.appendChild(socmed_linked);
+
+              //Create DIV element for website href section
+              let block_user_visit_link = document.createElement('div');
+              block_user_visit_link.id = "block-user-visit-link" + index;
+              block_user_footer.appendChild(block_user_visit_link);
+
+                //Create A element for user webpage
+                let user_webpage = document.createElement('a');
+                user_webpage.id = "block-user-webpage" + index;
+                user_webpage.classList = "fas fa-external-link-alt block-user-footer-visit";
+                // Create a href attribute:
+                user_webpage.setAttribute("href", "");
+                block_user_visit_link.appendChild(user_webpage); 
+              
+
+              
+              block_user.appendChild(block_user_pfp);
+              block_user.appendChild(block_user_name);
+              block_user.appendChild(block_user_about);
+              block_user.appendChild(block_user_footer);
+              //about
+              //footer
+                //
+              container.append(block_user);
+
+              // document.querySelector("#block-user-pfp-img").src = data.users[0].pfp;
+              document.querySelector("#block-user-pfp-img" + index).src = data.users[index].pfp;
+              // document.querySelector("#block-user-name").innerText = data.users[0].firstName + " " + data.users[0].lastName;
+              document.querySelector("#block-user-name" + index).innerText = data.users[index].firstName + " " + data.users[index].lastName;
+              // document.querySelector("#block-user-about").innerText = data.users[0].aboutMe;
+              document.querySelector("#block-user-about" + index).innerText = data.users[index].aboutMe;
+              // document.getElementById("block-user-socmed-fb").href = data.users[0].socmed.facebook;
+              document.getElementById("block-user-socmed-fb" + index).href = data.users[index].socmed.facebook;
+              // document.getElementById("block-user-socmed-github").href = data.users[0].socmed.github;
+              document.getElementById("block-user-socmed-github" + index).href = data.users[index].socmed.github;
+              // document.getElementById("block-user-socmed-link").href = data.users[0].socmed.linkedIn;
+              document.getElementById("block-user-socmed-link" + index).href = data.users[index].socmed.linkedIn;
+              // document.getElementById("block-user-webpage").href = data.users[0].website;
+              document.getElementById("block-user-webpage" + index).href = data.users[index].website;
+            }
+          });
     </script>
 
   </body>
