@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Montserrat:wght@300&family=Supermercado+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,7 +15,7 @@
     .block-user-pfp {
         @apply h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3;
     }
-    
+
         .block-user-pfp-img {
             @apply h-[100px] w-[100px] rounded-[50%];
         }

@@ -26,7 +26,7 @@
         </button>
 
         <div class="w-[85%] text-center">
-          <h1 class="text-3xl text-gray-900 p-3">IUPAGE</h1>
+          <h1 class="text-3xl text-gray-900 p-3 font-RobotoMono ">IUPAGE</h1>
         </div>
       </div>
     </header>
@@ -59,7 +59,7 @@
       class="mr-auto ml-auto max-w-[1160px] pl-[10px] pr-[10px]"
     >
 
-      <h1 class="m-6 text-3xl text-left sm:text-justify">Featured Portfolio Webpage</h1>
+      <h1 class="m-6 text-3xl text-left sm:text-justify font-RobotoMono ">Featured Portfolio Webpages</h1>
     
       <div id="container-body-block" class="p-6 grid self-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-14">
       
@@ -113,20 +113,21 @@
               //Create H2 element for user name
               let block_user_name = document.createElement('h2');
               block_user_name.id = "block-user-name" + index;
-              block_user_name.className = "m-2";
+              block_user_name.classList = "m-2 font-SupermercadoOne";
               
               //Create IMG element for user img
               let block_user_pfp_img = document.createElement('img');
               block_user_pfp_img.id = "block-user-pfp-img" + index;
               block_user_pfp_img.classList = "block-user-pfp-img mt-3";
               block_user_pfp_img.setAttribute("alt", "Display Picture");
+              block_user_pfp_img.setAttribute("onerror", "this.src='src/img/altImg.jpg'");
               block_user_pfp.append(block_user_pfp_img);
-
+              
               //Create P element for user about
               let block_user_about = document.createElement('p');
               block_user_about.id = "block-user-about" + index;
               block_user_about.className = "block-user-about";
-              
+
               //Create DIV element for socmed and link to website
               let block_user_footer = document.createElement('div');
               block_user_footer.id = "block-user-footer" + index;
@@ -141,7 +142,7 @@
                 //Create A element for facebook
                 let socmed_fb = document.createElement('a');
                 socmed_fb.id = "block-user-socmed-fb" + index;
-                socmed_fb.classList = "fab fa-facebook-square block-user-footer-socmed";
+                socmed_fb.classList = "fab fa-facebook-square block-user-footer-socmed text-[#0e7adc]";
                 // Create a href attribute:
                 socmed_fb.setAttribute("href", "");
                 block_user_socmed.appendChild(socmed_fb);
@@ -149,7 +150,7 @@
                 //Create A element for github
                 let socmed_github = document.createElement('a');
                 socmed_github.id = "block-user-socmed-github" + index;
-                socmed_github.classList = "fab fa-github-square block-user-footer-socmed";
+                socmed_github.classList = "fab fa-github-square block-user-footer-socmed text-[#323232]";
                 // Create a href attribute:
                 socmed_github.setAttribute("href", "");
                 block_user_socmed.appendChild(socmed_github);
@@ -157,7 +158,7 @@
                 //Create A element for linked
                 let socmed_linked = document.createElement('a');
                 socmed_linked.id = "block-user-socmed-link" + index;
-                socmed_linked.classList = "fab fa-linkedin block-user-footer-socmed";
+                socmed_linked.classList = "fab fa-linkedin block-user-footer-socmed text-[#0e7adc]";
                 // Create a href attribute:
                 socmed_linked.setAttribute("href", "");
                 block_user_socmed.appendChild(socmed_linked);
