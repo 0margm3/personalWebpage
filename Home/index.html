@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -118,6 +119,7 @@
               let block_user_pfp_img = document.createElement('img');
               block_user_pfp_img.id = "block-user-pfp-img" + index;
               block_user_pfp_img.classList = "block-user-pfp-img mt-3";
+              block_user_pfp_img.setAttribute("alt", "Display Picture");
               block_user_pfp.append(block_user_pfp_img);
 
               //Create P element for user about
@@ -171,6 +173,7 @@
                 user_webpage.classList = "fas fa-external-link-alt block-user-footer-visit";
                 // Create a href attribute:
                 user_webpage.setAttribute("href", "");
+                user_webpage.setAttribute("target", "_blank");
                 block_user_visit_link.appendChild(user_webpage); 
               
 

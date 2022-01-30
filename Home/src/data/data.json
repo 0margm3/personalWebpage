@@ -56,5 +56,20 @@
                 ,
                 "website": "../Vincent's Portfolio/Vincent's Portfolio.html"
             }
+            ,
+            {
+                "pfp": "",
+                "firstName": "Cristian Bien",
+                "lastName": "Armedilla",
+                "aboutMe": "da dud", 
+                "socmed": 
+                    {
+                        "facebook": "",
+                        "github": "https://github.com/C0RoVoW",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../Corovow/index.html"
+            }
         ]
     }
