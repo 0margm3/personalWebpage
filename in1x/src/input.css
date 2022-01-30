@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Press+Start+2P&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer components{
+    .nav-text {
+        @apply m-2 font-Encode-Sans-Condensed text-base hover:text-cColor2;
+    }
+    .cube {
+        @apply absolute 
+        w-[10px] 
+        h-[10px] 
+        border-[1px] 
+        border-cColor2 
+        animate-expand 
+        animate-cube-1
+        z-0
+        origin-top-left;
+        
+    }
+    .section-header {
+        @apply text-slate-200 font-Encode-Sans-Condensed text-2xl pl-24 pt-24 pb-12;
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}

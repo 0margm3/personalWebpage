@@ -1,170 +1,156 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="content=device-width, initial-scale=1.0 "> -->
-    <link rel="stylesheet" href="src\stylesheets\style.min.css" type="text/css">
-    <link rel="stylesheet" href="src\stylesheets\BoxAnimation.css" type="text/css">
-    <link rel="stylesheet" href="src\stylesheets\BoxAnimation2.css" type="text/css">
-    <title>Welcome</title>
-</head>
+  <body class="bg-cColor1">
+    <header class="flex justify-between bg-black/25 sticky top-0 z-50">
+      <h1 class="text-4xl m-6 ml-16 text-cColor2 sticky font-Encode-Sans-Condensed">
+        <a href=".">@ in1x</a>
+      </h1>
 
-<body>
-    <div class="Back">
-        <!-- add href to navigate to main webpage -->
-        <img src="src\img\Back.png" alt="Go Back" class="placeholder_back-img">
+      <nav class="m-6 mr-14 mt-9 text-slate-200">
+        <a href="#about_me" class="nav-text">about_me()</a>
+        <a href="#projects" class="nav-text">projects()</a>
+        <a href="#social_media" class="nav-text">social_media()</a>
+        <a href="#contact_me" class="nav-text">contact_me()</a>
+      </nav>
+    </header>
 
+    <div id="container" class="flex flex-col">
+      <div id="profile" class="flex flex-col items-center mt-9 mb-10">
+        <img
+          src="src/img/dp.jpg"
+          alt="profilePicture"
+          class="h-[250px] w-[250px] rounded-[50%]"
+        />
+
+        <div class="cube left-[15vw] top-[20vh]"></div>
+        <div class="cube left-[15vw] top-[50vh] animation-delay-1000"></div>
+        <div class="cube left-[85vw] top-[25vh] animation-delay-2000"></div>
+        <div class="cube left-[90vw] top-[50vh] animation-delay-4000"></div>
+        <div class="cube left-[20vw] top-[85vh] animation-delay-6000"></div>
+
+        <h2 class="mt-5 text-4xl text-slate-200">Omar Gerardo</h2>
+        <p class="mt-2 text-slate-200">
+          Student at Technological Univeristy of the Philippines - Manila
+        </p>
+        <p class="mt-2 text-slate-200">Aspiring Developer</p>
+      </div>  
+
+      <div id="about_me" class="mt-[100px] bg-[#191919] flex flex-col">
+        <h2 class="section-header">about_me()</h2>
+        <p class="text-slate-200 pb-48 pl-52 pr-56 ml-12">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+          consequuntur sint autem earum deserunt magni dolorem quidem quo.
+          Molestias sed vero voluptate ipsam repudiandae nam delectus et tenetur
+          esse? Quibusdam hic eaque tenetur nemo voluptates vitae ea distinctio
+          corporis earum!
+        </p>
+      </div>
+
+      <div id="projects" class="mt-36 mb-36 flex flex-col">
+        <h2 class="section-header">projects()</h2>
+
+        <div id="featured-projects" class="grid grid-cols-2 ml-[10%]">
+          <div class="flex flex-col items-center">
+            <h3 class="text-slate-200 mb-5"><a href="https://github.com/in1x/Traffic_Simulation">Traffic Simulation()</a></h3>
+            <img
+              src="src/img/trafficSim.png"
+              alt="Traffic Simulation"
+              class="h-[225px] w-[365px]"
+            />
+          </div>
+
+          <div class="flex flex-col items-center">
+            <h3 class="text-slate-200 mb-5"><a href="https://github.com/in1x/atm-simulation">Atm Simulation()</a></h3>
+            <img
+              src="src/img/atmSim.png"
+              alt="ATM Simulation"
+              class="h-[225px] w-[365px]"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="social_media"
+        class="mt-[100px] pb-[50px] bg-[#191919] flex justify-between"
+      >
+      <div id="socmedList" class="flex flex-col">
+          <h2 class="section-header pb-3">social_media()</h2>
+          <div id="githubSM" class="flex ml-24">
+            <a href="https://github.com/in1x/" target="_blank" id="Socmed">
+              <img
+                src="src/img/GitIcon.png"
+                alt="GitHub"
+                class="h-[50px] w-[50px]"
+              />
+            </a>
+
+            <a href="https://github.com/in1x/" target="_blank" id="Socmed">
+              <p class="p-3 text-slate-200">Github</p>
+            </a>
+          </div>
+
+          <div id="linkedSM" class="flex ml-24">
+            <a href="https://github.com/in1x/" target="_blank" id="Socmed">
+              <img
+                src="src/img/linkedIn.png"
+                alt="LinkedIn"
+                class="h-[45px] w-[45px]"
+              />
+            </a>
+
+            <a href="https://github.com/in1x/" target="_blank" id="Socmed">
+              <p class="p-3 text-slate-200">LinkedIn</p>
+            </a>
+          </div>
+        </div>
+
+        <div id="contact_me" class="">
+
+          <form action="https://formspree.io/f/xgedavlz" method="POST" class="flex flex-col mt-6 mb-6 mr-12">
+
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label class="block uppercase tracking-wide text-cColor2 text-xs font-bold mb-2" for="grid-password">
+                  E-mail
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                invalid:border-pink-500 invalid:text-pink-600
+                focus:invalid:border-pink-500 focus:invalid:ring-pink-500"  id="email" type="email" placeholder="name@email" name="email" required>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label class="block uppercase tracking-wide text-cColor2 text-xs font-bold mb-2" for="grid-password">
+                  Message
+                </label>
+                <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 w-80 resize-none" placeholder="Your message" id="message"></textarea>
+                <p class="text-gray-600 text-xs italic">
+              </div>
+            </div>
+
+            <div class="md:flex md:items-center">
+              <div class="md:w-1/3">
+                <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
+                  Send
+                </button>
+              </div>
+              <div class="md:w-2/3"></div>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
     </div>
-    <div class="parallax_wrapper">
 
-
-        <!-- <div class="overlay" id="overlay_top"></div>
-            <div class="overlay" id="overlay_bottom"></div> -->
-        <!-- Header/title starts -->
-        <div class="parallax_group intro_screen" id="intro" id="stars">
-            <div class="Profile background">
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <img src="src\img\dp.jpg" alt="Display Picture" class="placeholder_dp-img">
-                <p id="Name">OMAR GERARDO</p>
-                <div id="_socmed">
-                    <a href="https://github.com/in1x/" target="_blank" id="Socmed">
-                        <img src="src\img\GitIcon.png" alt="GitHub" class="gitIcon">
-                        <p>in1x</p>
-                    </a>
-                </div>
-                <div class="Content_wrapper">
-                    <div class="wrapper_Left"></div>
-                    <div class="Nav_line">
-                        <div class="Square1 square_color"></div>
-                        <div class="Square2 square_color"></div>
-                        <div class="Square3 square_color"></div>
-                    </div>
-                    <div class="Content">
-                        <p id="Content_Heading">aboutMe();</p>
-                        <p id="Content_para">Procrastinator Enthusiast</p>
-                        <p id="Content_para">Procrastination Advocate</p>
-                    </div>
-                    <div class="wrapper_Right"></div>
-                </div>
-            </div>
-        </div>
-        <!-- Header/title ends -->
-        <!-- Section starts -->
-        <div class="parallax_group" id="group-01">
-            <div class="parallax_layer base_layer">
-                <!-- Base Layer page -->
-                <div class="quote">
-                    <p><q>Kung kaya nila, pagawa mo sa kanila.</q> - Unknown</p>
-                </div>
-                <div class="area">
-                    <ul class="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="parallax_layer mid_layer">
-                <!-- Mid Layer Page -->
-            </div>
-        </div>
-        <!-- Section Ends -->
-        <!-- Transition Section Starts -->
-        <div class="parallax_group" id="group-02">
-            <div class="parallax_layer mid_layer background">
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <div class="cube"></div>
-                <div class="Content_wrapper">
-                    <div class="wrapper_Left"></div>
-                    <div class="Nav_line">
-                        <div class="Square1 square_color"></div>
-                        <div class="Square2 square_color"></div>
-                        <div class="Square3 square_color"></div>
-                    </div>
-                    <div class="Content">
-                        <p id="Content_Heading">Projects();</p>
-                        <a href="https://github.com/in1x/atm-simulation" target="_blank" id="Content_para">ATM Simulation</a>
-                        <br>
-                        <br>
-                        <a href="https://github.com/in1x/Traffic_Simulation" target="_blank" id="Content_para">Traffic Simulation</a>
-                    </div>
-                    <div class="wrapper_Right"></div>
-                </div>
-            </div>
-        </div>
-        <!-- Transition Section Ends -->
-        <!-- Section starts -->
-        <div class="parallax_group" id="group-01">
-            <div class="parallax_layer base_layer">
-                <!-- Base Layer Page -->
-                <div class="quote">
-                    <p><q>Don't be angry, control your temper</q> - Unknown</p>
-                </div>
-                <div class="area">
-                    <ul class="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="parallax_layer mid_layer">
-                <!-- Mid Layer Page -->
-            </div>
-        </div>
-        <!-- Section Ends -->
-        <!-- Outro/footer starts -->
-        <div class="parallax_group outro_screen" id="outro">
-            <!-- Outro -->
-            <div class="Content_wrapper">
-                <div class="wrapper_Left"></div>
-                <div class="Nav_line">
-                    <div class="Square1 square_color"></div>
-                    <div class="Square2 square_color"></div>
-                    <div class="Square3 square_color"></div>
-                </div>
-                <div class="Content">
-                    <p id="Content_Heading">SocMed();</p>
-                    <div id="_socmed">
-                        <a href="https://github.com/in1x/" target="_blank" id="Socmed">
-                            <img src="src\img\GitIcon.png" alt="GitHub" class="gitIcon">
-                            <p>Github</p>
-                        </a>
-                    </div>
-                    <div id="_socmed">
-                        <a href="https://github.com/in1x/" target="_blank" id="Socmed">
-                            <img src="src\img\GitIcon.png" alt="GitHub" class="gitIcon">
-                            <p>Linkedin</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="wrapper_Right"></div>
-            </div>
-        </div>
-        <!-- Outro/footer ends -->
-    </div>
-</body>
-
+    <footer></footer>
+  </body>
 </html>

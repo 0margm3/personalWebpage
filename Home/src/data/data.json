@@ -1,0 +1,90 @@
+    {
+        "users": [
+            {
+                "pfp": "../in1x/src/img/dp.jpg",
+                "firstName": "Omar",
+                "lastName": "Gerardo",
+                "aboutMe": "Abnormal",
+                "socmed":
+                    {
+                        "facebook": "https://www.facebook.com/omrgd",
+                        "github": "https://github.com/in1x/",
+                        "linkedIn": "https://www.linkedin.com/in/omargerardo/"
+                    }
+                ,
+                "website": "http://127.0.0.1:5501/index.html"
+            },
+            {
+                "pfp": "../van_proj/pics/yvan.png",
+                "firstName": "Yvan Joyce",
+                "lastName": "Carreon",
+                "aboutMe": "Minimalist",
+                "socmed":
+                    {
+                        "facebook": "https://www.facebook.com/yvanjoyce/",
+                        "github": "https://github.com/yvanjoyce",
+                        "linkedIn": "https://www.linkedin.com/in/yvan-joyce-carreon-a43aa4226/"
+                    }
+                ,
+                "website": "../van_proj/vanpage.html"
+            },
+            {
+                "pfp": "../Juram - Portfolio/ME.jpg",
+                "firstName": "Mary Joy",
+                "lastName": "Juram",
+                "aboutMe": "Uwoo",
+                "socmed":
+                    {
+                        "facebook": "https://www.facebook.com/mryjyzs.jrm/",
+                        "github": "https://github.com/MaryJoyJuram",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../Juram - Portfolio/Juram Portfolio.html"
+            },
+            {
+                "pfp": "../Vincent's Portfolio/Images/MY PHOTO.jpg",
+                "firstName": "John Vincent",
+                "lastName": "Vicena",
+                "aboutMe": "mister etuk",
+                "socmed":
+                    {
+                        "facebook": "https://www.facebook.com/vncnt.vcn",
+                        "github": "https://github.com/Centyyy",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../Vincent's Portfolio/Vincent's Portfolio.html"
+            }
+            ,
+            {
+                "pfp": "",
+                "firstName": "Cristian Bien",
+                "lastName": "Armedilla",
+                "aboutMe": "da dud",
+                "socmed":
+                    {
+                        "facebook": "",
+                        "github": "https://github.com/C0RoVoW",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../Corovow/index.html"
+            }
+            ,
+            {
+                "pfp": "../L-les/src/L.png",
+                "firstName": "Lester Joseph",
+                "lastName": "Gloria",
+                "aboutMe": "Hakdog",
+                "socmed":
+                    {
+                        "facebook": "https://www.facebook.com/LesterJosephGloria/",
+                        "github": "https://github.com/l-Les",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../L-les/index.html"
+            }
+        ]
+    }
