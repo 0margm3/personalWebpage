@@ -5,7 +5,7 @@
                 "firstName": "Omar",
                 "lastName": "Gerardo",
                 "aboutMe": "Abnormal",
-                "socmed": 
+                "socmed":
                     {
                         "facebook": "https://www.facebook.com/omrgd",
                         "github": "https://github.com/in1x/",
@@ -18,8 +18,8 @@
                 "pfp": "../van_proj/pics/yvan.png",
                 "firstName": "Yvan Joyce",
                 "lastName": "Carreon",
-                "aboutMe": "Minimalist", 
-                "socmed": 
+                "aboutMe": "Minimalist",
+                "socmed":
                     {
                         "facebook": "https://www.facebook.com/yvanjoyce/",
                         "github": "https://github.com/yvanjoyce",
@@ -32,8 +32,8 @@
                 "pfp": "../Juram - Portfolio/ME.jpg",
                 "firstName": "Mary Joy",
                 "lastName": "Juram",
-                "aboutMe": "Uwoo", 
-                "socmed": 
+                "aboutMe": "Uwoo",
+                "socmed":
                     {
                         "facebook": "https://www.facebook.com/mryjyzs.jrm/",
                         "github": "https://github.com/MaryJoyJuram",
@@ -46,8 +46,8 @@
                 "pfp": "../Vincent's Portfolio/Images/MY PHOTO.jpg",
                 "firstName": "John Vincent",
                 "lastName": "Vicena",
-                "aboutMe": "mister etuk", 
-                "socmed": 
+                "aboutMe": "mister etuk",
+                "socmed":
                     {
                         "facebook": "https://www.facebook.com/vncnt.vcn",
                         "github": "https://github.com/Centyyy",
@@ -61,8 +61,8 @@
                 "pfp": "",
                 "firstName": "Cristian Bien",
                 "lastName": "Armedilla",
-                "aboutMe": "da dud", 
-                "socmed": 
+                "aboutMe": "da dud",
+                "socmed":
                     {
                         "facebook": "",
                         "github": "https://github.com/C0RoVoW",
@@ -70,6 +70,21 @@
                     }
                 ,
                 "website": "../Corovow/index.html"
+            }
+            ,
+            {
+                "pfp": "../L-les/src/L.png",
+                "firstName": "Lester Joseph",
+                "lastName": "Gloria",
+                "aboutMe": "Hakdog",
+                "socmed":
+                    {
+                        "facebook": "https://www.facebook.com/LesterJosephGloria/",
+                        "github": "https://github.com/l-Les",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../L-les/index.html"
             }
         ]
     }
