@@ -85,6 +85,21 @@
                     }
                 ,
                 "website": "../L-les/index.html"
-            }
+            },
+
+{
+            "pfp": "../LullabyOfLies/hehe.jpg",
+            "firstName": "Jean Lorenz",
+            "lastName": "Recato",
+            "aboutMe": "Kaning Lamig",
+            "socmed":
+                {
+                    "facebook": "https://www.facebook.com/DjinnLorenz/",
+                    "github": "https://github.com/LullabyOfLies",
+                    "linkedIn": ""
+                }
+            ,
+            "website": "../LullabyOfLies/main.html"
+        }
         ]
     }
