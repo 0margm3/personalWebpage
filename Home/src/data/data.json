@@ -4,7 +4,7 @@
                 "pfp": "../in1x/src/img/dp.jpg",
                 "firstName": "Omar",
                 "lastName": "Gerardo",
-                "aboutMe": "Matigas",
+                "aboutMe": "Abnormal",
                 "socmed": 
                     {
                         "facebook": "https://www.facebook.com/omrgd",
@@ -18,7 +18,7 @@
                 "pfp": "../van_proj/pics/yvan.png",
                 "firstName": "Yvan Joyce",
                 "lastName": "Carreon",
-                "aboutMe": "Abnormal", 
+                "aboutMe": "Minimalist", 
                 "socmed": 
                     {
                         "facebook": "https://www.facebook.com/yvanjoyce/",
@@ -27,6 +27,34 @@
                     }
                 ,
                 "website": "../van_proj/vanpage.html"
+            },
+            {
+                "pfp": "../Juram - Portfolio/ME.jpg",
+                "firstName": "Mary Joy",
+                "lastName": "Juram",
+                "aboutMe": "Uwoo", 
+                "socmed": 
+                    {
+                        "facebook": "https://www.facebook.com/mryjyzs.jrm/",
+                        "github": "https://github.com/MaryJoyJuram",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../Juram - Portfolio/Juram Portfolio.html"
+            },
+            {
+                "pfp": "../Vincent's Portfolio/Images/MY PHOTO.jpg",
+                "firstName": "John Vincent",
+                "lastName": "Vicena",
+                "aboutMe": "mister etuk", 
+                "socmed": 
+                    {
+                        "facebook": "https://www.facebook.com/vncnt.vcn",
+                        "github": "https://github.com/Centyyy",
+                        "linkedIn": ""
+                    }
+                ,
+                "website": "../Vincent's Portfolio/Vincent's Portfolio.html"
             }
         ]
     }
