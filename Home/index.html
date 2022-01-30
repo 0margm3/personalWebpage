@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fb433019d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>IUPAGE</title>
+  </head>
+  <body class="">
+    <header class="bg-[#C4C4C4]">
+      <div id="container-header" class="flex">
+        <button
+          id="menu-header"
+          class="ml-4 mr-2 mt-3 h-[38px] w-[38px] rounded-2xl bg-[#602020] hover:text-lg hover:h-[46px] hover:w-[46px] hover:ml-3 hover:mt-2 hover:mr-1"
+
+          onclick="openNav()"
+        >
+          <i class="fas fa-bars p-3 text-zinc-300 hover:text-lg hover:p-2"></i>
+        </button>
+
+        <div class="w-[85%] text-center">
+          <h1 class="text-3xl text-gray-900 p-3">IUPAGE</h1>
+        </div>
+      </div>
+    </header>
+
+    <div id="side-bar" class="h-[100%] w-0 fixed z-[1] top-0 left-0 bg-[#402323] overflow-hidden transition-all 
+    ">
+        
+        <div id="side-bar-container" class="flex flex-col ">
+            
+            <div>
+                <button id="close-side-bar" onclick="closeNav()" class="ml-4 mr-2 mt-3 mb-1 h-[38px] w-[38px] rounded-2xl   bg-zinc-50 hover:text-lg hover:h-[46px] hover:w-[46px] hover:ml-3 hover:mt-2 hover:mr-1 hover:mb-0">
+                    <i class="fas fa-caret-square-left text-[#402323] "></i>
+                </button>
+            </div>
+
+            <div id="side-bar-content" class="flex flex-col ">
+                <div id="side-bar-content-header" class="mt-12 mr-8 ml-8">
+                    <h1 class="border-b-8 border-slate-200 text-slate-200 text-3xl text-center">I U P A G E</h1>
+                  </div>
+                <div id="side-bar-content-body" class="self-center">
+                  <img src="src/img/creator.png" alt="creatorLogo" class="h-[350px] w-[220px]">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div
+      id="container-body"
+      class="mr-auto ml-auto max-w-[1160px] pl-[10px] pr-[10px]"
+    >
+
+
+    <h1 class="m-6 text-3xl text-left sm:text-justify">Featured Portfolio Webpage</h1>
+    
+    <div id="container-body-block" class="p-6 grid self-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  ">
+        
+        <div
+          id="block-user"
+          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
+          text-center flex flex-col justify-between
+          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
+        >
+          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
+          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
+          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
+          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+            <div id="block-user-socmed" class="flex justify-evenly">
+                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+            </div>
+            <div id="block-user-visit-link">
+                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+        
+      
+        <div
+          id="block-user"
+          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
+          text-center flex flex-col justify-between
+          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
+        >
+          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
+          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
+          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
+          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+            <div id="block-user-socmed" class="flex justify-evenly">
+                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+            </div>
+            <div id="block-user-visit-link">
+                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+
+           
+        <div
+          id="block-user"
+          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
+          text-center flex flex-col justify-between
+          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
+        >
+          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
+          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
+          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
+          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+            <div id="block-user-socmed" class="flex justify-evenly">
+                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+            </div>
+            <div id="block-user-visit-link">
+                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+
+           
+        <div
+          id="block-user"
+          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
+          text-center flex flex-col justify-between
+          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
+        >
+          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
+          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
+          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
+          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+            <div id="block-user-socmed" class="flex justify-evenly">
+                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+            </div>
+            <div id="block-user-visit-link">
+                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+
+           
+        <div
+          id="block-user"
+          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
+          text-center flex flex-col justify-between
+          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
+        >
+          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
+          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
+          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
+          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+            <div id="block-user-socmed" class="flex justify-evenly">
+                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+            </div>
+            <div id="block-user-visit-link">
+                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+
+           
+        <div
+          id="block-user"
+          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
+          text-center flex flex-col justify-between
+          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
+        >
+          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
+          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
+          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
+          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+            <div id="block-user-socmed" class="flex justify-evenly">
+                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+            </div>
+            <div id="block-user-visit-link">
+                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+
+           
+        <div
+          id="block-user"
+          class="transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
+          text-center flex flex-col justify-between
+          drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5"
+        >
+          <div id="block-user-pfp" class="h-[100px] w-[100px] bg-gray-900 rounded-[50%] mr-auto ml-auto mt-3" ></div>
+          <h2 id="block-user-name" class="m-2">Firstname Lastname</h2>
+          <p id="block-user-about" class="m-1 p-3 pt-0 text-xs text-center h-[72px]">About you (99 character)</p>
+          <div id="block-user-footer" class="flex justify-between h-[48px] w-[100%] rounded-br-[14px] rounded-bl-[14px]">
+            <div id="block-user-socmed" class="flex justify-evenly">
+                <a href=""><i class="fab fa-facebook-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-github-square text-3xl m-1 ml-3 "></i></a>
+                <a href=""><i class="fab fa-linkedin text-3xl m-1 ml-3 "></i></a>
+            </div>
+            <div id="block-user-visit-link">
+                <a href=""><i class="fas fa-external-link-alt text-3xl m-1 mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+
+    <!-- 
+    <footer>
+        <div id="container-footer"></div>    
+    </footer> 
+    -->
+
+    <script>
+        function openNav() {
+            document.getElementById("side-bar").style.width = "390px";
+        }
+
+        function closeNav() {
+            document.getElementById("side-bar").style.width = "0";
+        }
+
+    </script>
+
+  </body>
+</html>
