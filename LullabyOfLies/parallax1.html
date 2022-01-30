@@ -239,13 +239,14 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
-
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
 body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  background-image: linear-gradient(#1F1A24,#121212);
 }
 
 /* Create a Parallax Effect */
@@ -430,24 +431,37 @@ body, html {
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> #305 San Pedro St. Bayanan , Manila City<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +639xxxxxxxx<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: jeanlorez.recato@tup.edu.ph<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +639xxxxxxxx <br>
+        <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i></a>
+        <a href = "https://twitter.com/@Jihoz_Axie"><i class="fa fa-twitter-square fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i></a>
+        <a href = "https://www.facebook.com/omrgd"><i class="fa fa-facebook-official fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i></a>
+        <a href = "https://www.instagram.com/chpsuuuu/?fbclid=IwAR1mC9q5wb1O3OpvVutCVdxKMC9jHUnLqrjeHiDzeH4-Hz2igFm8RYmROl4"><i class="fa fa-instagram  fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><br></a>
       </div>
-      <p>Send me a meme <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
+      <p>Send me a coffee <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="https://formspree.io/f/xayveqpa" target="_blank" method="POST">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            <label>
+            <input class="w3-input w3-border" placeholder="Email" type="email" name="_replyto" required>
+          </label>
           </div>
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <label>
+          <textarea class="w3-input w3-border" type="text" placeholder="Message" name="message" required></textarea>
+      </label>
         <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE </a>
         </button>
       </form>
+      <footer>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p align: center> <i>All rights reserved 2022</i> </p>
+      </footer>
     </div>
   </div>
 </div>
@@ -468,9 +482,9 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-#121212";
     } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-#121212", "");
     }
 }
 
