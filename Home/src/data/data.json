@@ -58,13 +58,13 @@
             }
             ,
             {
-                "pfp": "",
+                "pfp": "../Corovow/src/12.jpg",
                 "firstName": "Cristian Bien",
                 "lastName": "Armedilla",
                 "aboutMe": "da dud",
                 "socmed":
                     {
-                        "facebook": "",
+                        "facebook": "https://www.facebook.com/z.armedilla/",
                         "github": "https://github.com/C0RoVoW",
                         "linkedIn": ""
                     }
