@@ -8,8 +8,8 @@
 @layer components {
     .block-user {
         @apply transition transform delay-[50] h-[280px] w-[230px] bg-[#F6F2E9] 
-        text-center flex flex-col justify-between
-        drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-10 ml-auto mr-auto mt-5;
+        text-center flex flex-col justify-between z-0
+        drop-shadow-md hover:scale-125 hover:drop-shadow-2xl duration-300 rounded-[5%] hover:z-[1] ml-auto mr-auto mt-5;
     }
 
     .block-user-pfp {
