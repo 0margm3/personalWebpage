@@ -11,7 +11,9 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="dist/output.css" />
+    <link rel="icon" href="src/img/favicon.ico">
     <title>IUPAGE</title>
+
   </head>
 
   <body class="">
@@ -31,11 +33,11 @@
       </div>
     </header>
 
-    <div id="side-bar" class="h-[100%] w-0 fixed z-10 top-0 left-0 bg-[#402323] overflow-hidden transition-all 
+    <div id="side-bar" class="h-[100%] w-0 fixed z-10 top-0 left-0 bg-[#402323] overflow-hidden transition-all
     ">
-        
+
         <div id="side-bar-container" class="flex flex-col ">
-            
+
             <div>
                 <button id="close-side-bar" onclick="closeNav()" class="ml-4 mr-2 mt-3 mb-1 h-[38px] w-[38px] rounded-2xl   bg-zinc-50 hover:text-lg hover:h-[46px] hover:w-[46px] hover:ml-3 hover:mt-2 hover:mr-1 hover:mb-0">
                     <i class="fas fa-caret-square-left text-[#402323] "></i>
@@ -60,9 +62,9 @@
     >
 
       <h1 class="m-6 text-3xl text-left sm:text-justify font-RobotoMono ">Featured Portfolio Webpages</h1>
-    
+
       <div id="container-body-block" class="p-6 grid self-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-14">
-      
+
         <!-- <div id="block-user" class="block-user">
           <div id="block-user-pfp" class="block-user-pfp" >
             <img id="block-user-pfp-img" alt="user-pfp" class="block-user-pfp-img">
@@ -81,7 +83,7 @@
             </div>
           </div>
         </div> -->
-        
+
       </div>
     </div>
 
@@ -114,7 +116,7 @@
               let block_user_name = document.createElement('h2');
               block_user_name.id = "block-user-name" + index;
               block_user_name.classList = "m-2 font-SupermercadoOne";
-              
+
               //Create IMG element for user img
               let block_user_pfp_img = document.createElement('img');
               block_user_pfp_img.id = "block-user-pfp-img" + index;
@@ -122,7 +124,7 @@
               block_user_pfp_img.setAttribute("alt", "Display Picture");
               block_user_pfp_img.setAttribute("onerror", "this.src='src/img/altImg.jpg'");
               block_user_pfp.append(block_user_pfp_img);
-              
+
               //Create P element for user about
               let block_user_about = document.createElement('p');
               block_user_about.id = "block-user-about" + index;
@@ -175,10 +177,10 @@
                 // Create a href attribute:
                 user_webpage.setAttribute("href", "");
                 user_webpage.setAttribute("target", "_blank");
-                block_user_visit_link.appendChild(user_webpage); 
-              
+                block_user_visit_link.appendChild(user_webpage);
 
-              
+
+
               block_user.appendChild(block_user_pfp);
               block_user.appendChild(block_user_name);
               block_user.appendChild(block_user_about);
