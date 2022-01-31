@@ -1,1 +1,1 @@
-# Centralized Collection of Personal Webpage and Portfolio
+# Personal Webpage and Portfolio
